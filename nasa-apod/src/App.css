@@ -1,0 +1,103 @@
+body {
+  color: #88a9c5;
+  background: #242525;
+}
+
+.appContainer {
+  background-image: linear-gradient(45deg, #3a3a3a 30%, #5b6975cc 100%);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.infos {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .appContainer, .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition-duration: 1s;
+  }
+}
+
+img {
+  width: 500px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  img {
+    width: 450px;
+    transition-duration: 1s;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  img {
+    width: 400px;
+    transition-duration: 1s;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    width: 100%;
+    transition-duration: 1s;
+  }
+}
+
+h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+p, h3 {
+  font-size: 17px;
+  color: #c8c8c9;
+  margin-left: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+  p {
+    font-size: 14px;
+    transition-duration: 1s;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 12px;
+    transition-duration: 1s;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    font-size: 16px;
+    transition-duration: 1s;
+    margin-left: 0;
+  }
+}
+
+input {
+  background: #869099;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 3px;
+  outline: none;
+  text-align: right;
+}
+
+input:hover {
+  background: #88a9c5;
+}
