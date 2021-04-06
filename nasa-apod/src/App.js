@@ -32,7 +32,7 @@ function App() {
         date={nasa.date}
         description={nasa.explanation}
       />
-      <input type="date" onInput={datePicker}></input>
+      <input type="date" min="1995-06-16" onInput={datePicker}></input>
     </div>
   );
 }

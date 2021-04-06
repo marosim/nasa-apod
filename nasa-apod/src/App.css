@@ -80,7 +80,7 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-  p {
+  p, h3 {
     font-size: 16px;
     transition-duration: 1s;
     margin-left: 0;
@@ -88,7 +88,9 @@ p {
 }
 
 input {
-  background: #869099;
+  background-image: linear-gradient(to right, #7b8186 0%, #bbbbbb  51%, #88a9c5  100%);
+  background-size: 200% auto;
+  transition: 0.3s;
   border: none;
   border-radius: 5px;
   margin-left: 5px;
@@ -99,5 +101,5 @@ input {
 }
 
 input:hover {
-  background: #88a9c5;
+  background-position: right center;
 }
