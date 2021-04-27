@@ -28,7 +28,8 @@ function App() {
     <div className="appContainer">
       <NasaApi
         title={nasa.title}
-        image={nasa.url}
+        url={nasa.url}
+        media={nasa.media_type}
         date={nasa.date}
         description={nasa.explanation}
       />

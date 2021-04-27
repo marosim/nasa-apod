@@ -24,21 +24,22 @@ body {
   }
 }
 
-img {
-  width: 500px;
+img, iframe {
+  width: 530px;
   border-radius: 15px;
+  border: none;
 }
 
 @media screen and (max-width: 1200px) {
-  img {
-    width: 450px;
+  img, iframe {
+    width: 480px;
     transition-duration: 1s;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  img {
-    width: 400px;
+  img, iframe {
+    width: 430px;
     transition-duration: 1s;
   }
 }
@@ -48,16 +49,24 @@ img {
     width: 100%;
     transition-duration: 1s;
   }
+  iframe {
+    width: 100%;
+    height: 200px;
+    transition-duration: 1s;
+  }
 }
 
 h2 {
   font-size: 22px;
   letter-spacing: 1px;
+  margin-top: auto;
+  margin-left: 10px;
 }
 
 p, h3 {
   font-size: 17px;
   color: #c8c8c9;
+  margin-top: auto;
   margin-left: 20px;
 }
 
@@ -83,12 +92,17 @@ p {
   p, h3 {
     font-size: 16px;
     transition-duration: 1s;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  h2 {
+    font-size: 20px;
     margin-left: 0;
   }
 }
 
 input {
-  background-image: linear-gradient(to right, #7b8186 0%, #bbbbbb  51%, #88a9c5  100%);
+  background-image: linear-gradient(to right, #436888 0%, #cccbcc  51%, #84539b  100%);
   background-size: 200% auto;
   transition: 0.3s;
   border: none;
